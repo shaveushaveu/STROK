@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ブログ上級</title>
+  <link rel="stylesheet" type="text/css" href="https://www.jungleocean.com/demo/jquery-slick/css/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="https://www.jungleocean.com/demo/jquery-slick/css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+<body>
+  <header>
+    <a href="#">
+      <div class="menu">
+        <i class="fas fa-bars"></i>
+        <a href="#">menu</a>
+      </div>
+    </a>
+    <div class="header-left">
+      <a href="#" class="header-logo">STROK</a>
+      <nav class="header-navs">
+        <div class="header-nav header-category">
+          <a href="#">
+            <h1>カテゴリー</h1>
+            <h2>Category</h2>
+          </a>
+          <div class="category">
+            <ul class="category-1">
+              <li><a href="#">カテゴリー01</a></li>
+              <li class="category-02">
+                <a href="#">カテゴリー02</a>
+                <ul class="category-2">
+                  <li><a href="#">カテゴリー02_a</a></li>
+                  <li><a href="#">カテゴリー02_b</a></li>
+                  <li><a href="#">カテゴリー02_c</a></li>
+                </ul>
+              </li>
+              <li><a href="#">投稿サンプル</a></li>
+              <li><a href="#">トピックス</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header-nav">
+          <a href="#">
+            <h1>当サイトについて</h1>
+            <h2>AboutMe</h2>
+          </a>
+        </div>
+        <div class="header-nav">
+          <a href="#">
+            <h1>固定ページ文章例</h1>
+            <h2>PageSample</h2>
+          </a>
+        </div>
+        <div class="header-nav">
+          <a href="#">
+            <h1>ワンカラム固定ページ</h1>
+            <h2>OneColumn</h2>
+          </a>
+        </div>
+        <div class="header-nav header-level">
+          <a href="#">
+            <h1>レベル1</h1>
+            <h2>Level1</h2>
+          </a>
+          <div class="level">
+            <li><a href="#">レベル2</a></li>
+          </div>
+        </div>
+        <div class="header-nav">
+          <a href="#">
+            <h1>ランディングページ</h1>
+            <h2>LANDING PAGE</h2>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <div class="header-right">
+      <i class="fas fa-search"></i>
+      <h1>search</h1>
+    </div>
+  </header>
+  <div class="search-btn">
+    <div class="search-content">
+      <h1>キーワードで記事を検索</h1>
+      <div class="search">
+        <input type="search" placeholder="検索する">
+        <a href="#" class="fas fa-search"></a>
+      </div>
+      <h2><span class="fas fa-times"></span>CLOSE</h2>
+    </div>
+  </div>
+  <div class="menus">
+    <div class="menu-bar">
+      <i class="close"><span class="fas fa-times"></span>CLOSE</i>
+      <div class="menu-menu menu-header">
+        <h1>メニュー</h1>
+        <div class="menu-menu-list">
+          <h2>当サイトについて</h2>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-menu-list">
+          <h2>ワンカラム固定ページ</h2>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-menu-list">
+          <h2>ワンカラム投稿ページ</h2>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-menu-list">
+          <h2>バイラル風投稿ページ</h2>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-menu-list">
+          <h2>カテゴリー01</h2>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-menu-list">
+          <h2>カテゴリー02</h2>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-menu-list">
+          <h2>トピックス</h2>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-menu-list">
+          <h2>固定ページ: 画像の配置</h2>
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </div>
+      <div class="menu-text menu-header">
+        <h1>テキストをどうぞ</h1>
+        <div class="menu-text-content">
+          <div class="menu-text-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSAa3h4AJzgL6JRL5Y7WnXvVJIgKRAAxmqnQ&usqp=CAU">
+            <p>HAMUHAMU</p>
+          </div>
+          <h2>テキスト好きに書きやがれ！ ウィジェットがメニューになるなんて活気的ね♪</h2>
+        </div>
+
+      </div>
+      <div class="menu-tag menu-header">
+        <h1>タグから探しやがれ！</h1>
+        <div class="menu-tag-content">
+          <a href="#">8ビット</a>
+          <a href="#">Codex</a>
+          <a href="#">css</a>
+          <a href="#">FTW</a>
+          <a href="#">html</a>
+          <a href="#">jetpack</a>
+          <a href="#">PICKUP</a>
+          <a href="#">twitter</a>
+          <a href="#">videopress</a>
+          <a href="#">WordPress</a>
+          <a href="#">wordpress.tv</a>
+          <a href="#">アライメント</a>
+          <a href="#">オススメ</a>
+          <a href="#">カテゴリー</a>
+          <a href="#">ギャラリー</a>
+          <a href="#">コメント</a>
+          <a href="#">コンテンツ</a>
+          <a href="#">ショートコード</a>
+          <a href="#">タイトル</a>
+          <a href="#">タグ</a>
+          <a href="#">チャット</a>
+          <a href="#">テンプレート</a>
+          <a href="#">トラックバック</a>
+          <a href="#">ピンバック</a>
+          <a href="#">ファン</a>
+          <a href="#">マークアップ</a>
+          <a href="#">リンク</a>
+          <a href="#">レイアウト</a>
+          <a href="#">一覧</a>
+          <a href="#">動画</a>
+          <a href="#">固定</a>
+          <a href="#">埋め込み</a>
+          <a href="#">失敗</a>
+          <a href="#">字幕</a>
+          <a href="#">引用</a>
+          <a href="#">必読</a>
+          <a href="#">愛</a>
+          <a href="#">成功</a>
+          <a href="#">投稿フォーマット</a>
+          <a href="#">抜粋</a>
+          <a href="#">改ページ</a>
+          <a href="#">極端な例</a>
+          <a href="#">標準</a>
+          <a href="#">注目の画像</a>
+          <a href="#">画像</a>
+        </div>
+      </div>
+      <div class="menu-document menu-header">
+        <h1>新着記事だぜ</h1>
+        <div class="menu-document-content">
+          <div class="menu-document-img">
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/1.jpg">
+            <p>テンプレート：先頭固定表示 <span>2012.01.07</span></p>
+          </div>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-document-content">
+          <div class="menu-document-img">
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/2.jpg">
+            <p>「アコーディオン」ショートコード表示サンプル  <span>2019.11.13</span></p>
+          </div>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-document-content">
+          <div class="menu-document-img">
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/3.jpg">
+            <p>新機能あり（v1.2.3~）関連記事ショートコードの記載例（オプションも）<span>2019.01.30</span></p>
+          </div>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-document-content">
+          <div class="menu-document-img">
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/4.jpg">
+            <p>「ボックス」ショートコード表示サンプル <span>2017.09.25</span></p>
+          </div>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-document-content">
+          <div class="menu-document-img">
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/5.jpg">
+            <p>バイラルメディア風で「フルサイズアイキャッチ画像」のワンカラム投稿<span>2016.04.21</span></p>
+          </div>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="menu-document-content">
+          <div class="menu-document-img">
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/6.jpg">
+            <p>記事下のFacebookページのいいねボタンを設置可能<span>2015.11.11</span></p>
+          </div>
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </div>
+      <i class="close"><span class="fas fa-times"></span>CLOSE</i>
+    </div>
+  </div>
+
+  <main>
+    <div class="main-top">
+      <h1>Happy WordPress Blog</h1>
+      <h2>幸せを運ぶWordPressテーマ「ストーク (こうのとり)」</h2>
+      <div class="thema-btn">
+        <a href="#">テーマ詳細ページへ</a>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="main-navs">
+        <div class="main-nav-contents">
+          <div class="main-nav-content">
+            <a href="#">
+              <h1>カテゴリー00</h1>
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/1.jpg">
+              <p>テンプレート：先頭固定表示</p>
+            </a>
+          </div>
+          <div class="main-nav-content">
+            <a href="#">
+              <h1>カテゴリー01</h1>
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/2.jpg">
+              <p>極端な例</p>
+            </a>
+          </div>
+          <div class="main-nav-content">
+            <a href="#">
+              <h1>カテゴリー02</h1>
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/3.jpg">
+              <p>パイラルメディア風</p>
+            </a>
+          </div>
+          <div class="main-nav-content">
+            <a href="#">
+              <h1>カテゴリ03</h1>
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/4.jpg">
+              <p>記事ページのレイアウト</p>
+            </a>
+          </div>
+          <div class="main-nav-content">
+            <a href="#">
+              <h1>カテゴリー04</h1>
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/5.jpg">
+              <p>ワンカラム固定ページ</p>
+            </a>
+          </div>
+          <div class="main-nav-content">
+            <a href="#">
+              <h1>カテゴリー05</h1>
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/6.jpg">
+              <p>wordpress標準機能</p>
+            </a>
+          </div>
+          <div class="main-nav-content">
+            <a href="#">
+              <h1>カテゴリー06</h1>
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/7.jpg">
+              <p>各種サービス埋込表示</p>
+            </a>
+          </div>
+          <div class="main-nav-content">
+            <a href="#">
+              <h1>カテゴリー07</h1>
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/8.jpg">
+              <p>twitterソーシャルボタン</p>
+            </a>
+          </div>
+          <div class="main-nav-content">
+            <a href="#">
+              <h1>カテゴリー08</h1>
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/4.jpg">
+              <p>ランディングページ</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="main-contents">
+      <div class="main-contents-left">
+        <div class="main-content-left-add">
+          <div class="main-content-top-img">
+            <h1>ADD</h1>
+            <h2>728×90</h2>
+          </div>
+          <p>【トップページ用ウィジェット上部】ここにいろいろと追記できます。AdSenseコードをはってもいいですね。</p>
+        </div>
+        <nav class="main-content-nav">
+          <div class="main-content-nav-left">
+            <h1>カテゴリー00</h1>
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/1.jpg">
+          </div>
+          <div class="main-content-nav-right">
+            <h1>テンプレート: 先頭固定表示</h1>
+            <time datetime="2012.01.07"><span class="fas fa-calendar-check"></span>2012.01.07</time>
+            <p>先頭固定表示投稿です。 記事一覧の先頭行に固定した投稿です。常にトップに特定の記事を表示させたい場合に設定しておくとよいでしょう。 設定方法 投稿画面の「公開状態 > 編集」から「この投稿を先頭に固定表示」にチェッ…</p>
+          </div>
+        </nav>
+        <nav class="main-content-nav">
+          <div class="main-content-nav-left">
+            <h1>カテゴリー01</h1>
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/2.jpg">
+          </div>
+          <div class="main-content-nav-right">
+            <h1>「アコーディオン」ショートコード表示サンプル</h1>
+            <time datetime="2019.11.13"><span class="fas fa-calendar-check"></span>2019.11.13</time>
+            <p>関連記事ショートコードの表示テストです。2019/01/30に固定ページの表示にも対応しました。 投稿ページへのリンク 関連記事をショートコードで表示します。 ▼ 記載方法 上記の「記事のIDをここへ」という箇所を、リン…
+            </p>
+          </div>
+        </nav>
+        <nav class="main-content-nav">
+          <div class="main-content-nav-left">
+            <h1>カテゴリー02</h1>
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/3.jpg">
+          </div>
+          <div class="main-content-nav-right">
+            <h1>新機能あり（v1.2.3~）関連記事ショートコードの記載例（オプションも）</h1>
+            <time datetime="2019.01.30"><span class="fas fa-calendar-check"></span>2019.01.30</time>
+            <p>ストークのv1.1.3で追加されたボックスショートコードの表示サンプルページです。 これまで注意書きや補足用のショートコードはありましたが、今回のボックスショートコードを使えばより表現の幅が広がります。 タイトル（ラベル…</p>
+          </div>
+        </nav>
+        <nav class="main-content-nav">
+          <div class="main-content-nav-left">
+            <h1>カテゴリー03</h1>
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/4.jpg">
+          </div>
+          <div class="main-content-nav-right">
+            <h1>バイラルメディア風で「フルサイズアイキャッチ画像」のワンカラム投稿</h1>
+            <time datetime="2016.04.21"><span class="fas fa-calendar-check"></span>2016.04.21</time>
+            <p>バイラルメディア風のレイアウトの記事サンプルです。PCで見た時が一番恩恵があります。</p>
+          </div>
+        </nav>
+        <nav class="main-content-nav">
+          <div class="main-content-nav-left">
+            <h1>カテゴリー04</h1>
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/5.jpg">
+          </div>
+          <div class="main-content-nav-right">
+            <h1>記事下のFacebookページのいいねボタンを設置可能</h1>
+            <time datetime="2015.11.11"><span class="fas fa-calendar-check"></span>2015.11.11</time>
+            <p>オプションでFacebookページへのいいねボタンを表示することができます。表示場所は投稿記事の下部分。下のSNSボタンの直前に表示されるようになります。 設定方法も簡単で、【外観 > カスタマイズ > 投稿…
+            </p>
+          </div>
+        </nav>
+        <nav class="main-content-nav">
+          <div class="main-content-nav-left">
+            <h1>カテゴリー05</h1>
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/6.jpg">
+          </div>
+          <div class="main-content-nav-right">
+            <h1>記事一覧ページのレイアウト</h1>
+            <time datetime="2015.11.11"><span class="fas fa-calendar-check"></span>2015.11.11</time>
+            <p>ストークでは記事一覧ページのレイアウトを4種類の中からお選びいただけます。 トップページとそれ以外の記事一覧ページのレイアウトをお選びいただけます。 管理画面の、【外観 > カスタマイズ】の「記事一覧ページ設定」よ…</p>
+          </div>
+        </nav>
+        <nav class="main-content-nav">
+          <div class="main-content-nav-left">
+            <h1>カテゴリー06</h1>
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/7.jpg">
+          </div>
+          <div class="main-content-nav-right">
+            <h1>横幅いっぱいの投稿ページサンプル</h1>
+            <time datetime="2012.01.07"><span class="fas fa-calendar-check"></span>2015.11.01</time>
+            <p>横幅いっぱいの記事ページを作成することができます。 ショートコードももちろん使える 通常の投稿ページや固定ページ同様、ショートコードもちゃんとつかえるので、HTMLがわからないという方でも様々な表現が可能です。 カラムレ…</p>
+          </div>
+        </nav>
+        <nav class="main-content-nav">
+          <div class="main-content-nav-left">
+            <h1>カテゴリー07</h1>
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/8.jpg">
+          </div>
+          <div class="main-content-nav-right">
+            <h1>WordPress標準機能：ギャラリーの表示サンプル</h1>
+            <time datetime="2012.01.07"><span class="fas fa-calendar-check"></span>2015.06.06</time>
+            <p>WordPress標準機能ギャラリーの表示例です。 2列表示 3列表示 4列表示 5列表示 7列表示</p>
+          </div>
+        </nav>
+        <nav class="main-content-nav">
+          <div class="main-content-nav-left">
+            <h1>カテゴリー08</h1>
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/1.jpg">
+          </div>
+          <div class="main-content-nav-right">
+            <h1>各種サービス（Twitter / YouTube / etc）埋め込み表示</h1>
+            <time datetime="2015.06.04"><span class="fas fa-calendar-check"></span>2015.06.04</time>
+            <p>WordPressの標準機能としてURLを入力するだけでYouTubeやTwitterなどのパーツを埋め込むことができます。 Twitterの埋め込み パフェを多く見せるためのシリアルはいらない派です。 — …</p>
+          </div>
+        </nav>
+        <nav class="main-content-nav">
+          <div class="main-content-nav-left">
+            <h1>カテゴリー09</h1>
+            <img src="https://www.jungleocean.com/demo/jquery-slick/images/2.jpg">
+          </div>
+          <div class="main-content-nav-right">
+            <h1>Twitterソーシャルボタンに「@ユーザー名」を追加したい</h1>
+            <time datetime="2015.05.27"><span class="fas fa-calendar-check"></span>2012.01.07</time>
+            <p>ソーシャルボタンのカスタマイズに関してですが、基本的にそのままでもお使いいただけるのですが、Twitterでつぶやかれた際にTwitter投稿内に「@ユーザー名さんから」というのを入れる方法です。 アルバトロスでは投稿し…</p>
+          </div>
+        </nav>
+        <nav class="other-btn">
+          <ul>
+            <li><a href="#" class="other-page now-page">1</a></li>
+            <li><a href="#" class="other-page">2</a></li>
+            <li><a href="#" class="other-page">3</a></li>
+            <li><a href="#" class="other-page">></a></li>
+          </ul>
+        </nav>
+        <div class="main-content-left-add main-content-left-bottom">
+          <div class="main-content-top-img">
+            <h1>ADD</h1>
+            <h2>728×90</h2>
+          </div>
+          <p>【トップページ用ウィジェット上部】ここにいろいろと追記できます。AdSenseコードをはってもいいですね。</p>
+        </div>
+      </div>
+      <div class="main-contents-right">
+        <div class="main-content-right-img">
+          <h1>ADD</h1>
+          <h2>336×280</h2>
+          <p>オリジナルのバナーやAdSenseなど</p>
+        </div>
+        <div class="main-content-right-search">
+          <input type="text" placeholder="検索する">
+          <span class="fas fa-search"></span>
+        </div>
+        <div class="recent-document_imgs main-head">
+          <h1>最近の記事（画像付き）</h1>
+          <div class="recent-document_imgs-content">
+            <div class="recent-document_img">
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/1.jpg" width="100px" height="60px">
+              <p>テンプレート：先頭固定表示 <span>2012.01.07</span></p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="recent-document_imgs-content">
+            <div class="recent-document_img">
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/2.jpg" width="100px" height="60px">
+              <p>「アコーディオン」ショートコード表示サンプル <span>2019.11.13</span></p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="recent-document_imgs-content">
+            <div class="recent-document_img">
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/3.jpg" width="100px" height="60px">
+              <p>新機能あり（v1.2.3~）関連記事ショートコードの記載例（オプションも） <span>2019.01.30</span></p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="recent-document_imgs-content">
+            <div class="recent-document_img">
+              <img src="https://www.jungleocean.com/demo/jquery-slick/images/4.jpg" width="100px" height="60px">
+              <p>「ボックス」ショートコード表示サンプル <span>2017.09.25</span></p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </div>
+        <div class="recent-document_texts main-head">
+          <h1>最近の記事（テキスト）</h1>
+          <div class="recent-document_texts-content">
+            <div class="recent-document_text">
+              <p>「アコーディオン」ショートコード表示サンプル</p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="recent-document_texts-content">
+            <div class="recent-document_text">
+              <p>新機能あり（v1.2.3~）関連記事ショートコードの記載例（オプションも）</p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="recent-document_texts-content">
+            <div class="recent-document_text">
+              <p>「ボックス」ショートコード表示サンプル</p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="recent-document_texts-content">
+            <div class="recent-document_text">
+              <p>バイラルメディア風で「フルサイズアイキャッチ画像」のワンカラム投稿</p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="recent-document_texts-content">
+            <div class="recent-document_text">
+              <p>記事下のFacebookページのいいねボタンを設置可能</p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </div>
+        <div class="main-right-tags main-head">
+          <h1>Tag</h1>
+          <div class="main-right-tags-content">
+            <div class="main-right-tag">
+              <a href="#">8ビット</a>
+              <a href="#">Codex</a>
+              <a href="#">css</a>
+              <a href="#">FTW</a>
+              <a href="#">html</a>
+              <a href="#">jetpack</a>
+              <a href="#">PICKUP</a>
+              <a href="#">twitter</a>
+              <a href="#">videopress</a>
+              <a href="#">WordPress</a>
+              <a href="#">wordpress.tv</a>
+              <a href="#">アライメント</a>
+              <a href="#">オススメ</a>
+              <a href="#">カテゴリー</a>
+              <a href="#">ギャラリー</a>
+              <a href="#">コメント</a>
+              <a href="#">コンテンツ</a>
+              <a href="#">ショートコード</a>
+              <a href="#">タイトル</a>
+              <a href="#">タグ</a>
+              <a href="#">チャット</a>
+              <a href="#">テンプレート</a>
+              <a href="#">トラックバック</a>
+              <a href="#">ピンバック</a>
+              <a href="#">ファン</a>
+              <a href="#">マークアップ</a>
+              <a href="#">リンク</a>
+              <a href="#">レイアウト</a>
+              <a href="#">一覧</a>
+              <a href="#">動画</a>
+              <a href="#">固定</a>
+              <a href="#">埋め込み</a>
+              <a href="#">失敗</a>
+              <a href="#">字幕</a>
+              <a href="#">引用</a>
+              <a href="#">必読</a>
+              <a href="#">愛</a>
+              <a href="#">成功</a>
+              <a href="#">投稿フォーマット</a>
+              <a href="#">抜粋</a>
+              <a href="#">改ページ</a>
+              <a href="#">極端な例</a>
+              <a href="#">標準</a>
+              <a href="#">注目の画像</a>
+              <a href="#">画像</a>
+            </div>
+          </div>
+        </div>
+        <div class="main-right-archive main-head">
+          <h1>アーカイブ</h1>
+          <select>
+            <option>月を選択</option>
+            <option>2019年11月 (1) </option>
+            <option>2019年1月 (1) </option>
+            <option>2017年9月 (1) </option>
+            <option>2016年4月 (1) </option>
+            <option>2015年11月 (3) </option>
+            <option>2015年6月 (2) </option>
+            <option>2015年5月 (2) </option>
+            <option>2014年5月 (1) </option>
+            <option>2013年1月 (3) </option>
+            <option>2012年3月 (4) </option>
+            <option>2012年1月 (5) </option>
+            <option>2010年10月 (1) </option>
+            <option>2010年8月 (1) </option>
+            <option>2009年10月 (1) </option>
+            <option>2009年7月 (1) </option>
+            <option>2009年6月 (1) </option>
+            <option>2009年5月 (1) </option>
+          </select>
+        </div>
+        <div class="main-right-categorys main-head">
+          <h1>カテゴリー</h1>
+          <div class="main-right-categorys-content">
+            <div class="main-right-category">
+              <p>カテゴリー01 (6) </p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="plus-circle" id="main-right-categorys-content">
+            <div class="main-right-category">
+              <p>カテゴリー02 (7) </p>
+            </div>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+          <div class="main-right-categorys-lists">
+            <div class="main-right-categorys-content main-right-categorys-list">
+              <div class="main-right-category">
+                <p>カテゴリー02-a (2) </p>
+              </div>
+              <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="main-right-categorys-content main-right-categorys-list">
+              <div class="main-right-category">
+                <p>カテゴリー02-b (2) </p>
+              </div>
+              <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="main-right-categorys-content main-right-categorys-list">
+              <div class="main-right-category">
+                <p>カテゴリー02-c (3) </p>
+              </div>
+              <i class="fas fa-angle-right"></i>
+            </div>
+          </div>
+          
+          <div class="main-right-categorys-content">
+            <div class="main-right-category">
+              <p>ショートコード (4) </p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="main-right-categorys-content">
+            <div class="main-right-category">
+              <p>トピックス (6) </p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <div class="main-right-categorys-content">
+            <div class="main-right-category">
+              <p>投稿サンプル (18) </p>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </div>
+        <div class="main-right-phon main-head">
+          <h1>スマホで表示</h1>
+          <div class="main-right-phon-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS524CtxADLPceVHanGv-3bp2ehSrMMAPZ3sA&usqp=CAU">
+          </div>
+          <p>ストークではユーザーエージェントを使用しておりますので、スマートフォンでは一部表示が異なる場合がございます。実機を使ってのご確認を推奨しております。</p>
+        </div>
+        <div class="main-right-thema main-head">
+          <h1>テーマの紹介</h1>
+          <p>テーマの紹介ページはこちらから！</p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVnuOWCBhIxPm0KxqpO_MgnmcU8Gm8ZR6sXQ&usqp=CAU">
+          <div class="main-right-thema_btn">
+            <a href="#">ストークの紹介</a>
+          </div>
+        </div>
+        <div class="main-content-right-img">
+          <h1>ADD</h1>
+          <h2>336×280</h2>
+          <p>オリジナルのバナーやAdSenseなど</p>
+        </div>
+        <div class="main-content-right-img_bottom">
+          <h3>【追従型広告】AdSenseを貼るのは規約違反となるのでご注意</h3>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-top-tags">
+        <h1>Tags</h1>
+        <div class="footer-top-tag">
+          <a href="#">8ビット</a>
+          <a href="#">Codex</a>
+          <a href="#">css</a>
+          <a href="#">FTW</a>
+          <a href="#">html</a>
+          <a href="#">jetpack</a>
+          <a href="#">PICKUP</a>
+          <a href="#">twitter</a>
+          <a href="#">videopress</a>
+          <a href="#">WordPress</a>
+          <a href="#">wordpress.tv</a>
+          <a href="#">アライメント</a>
+          <a href="#">オススメ</a>
+          <a href="#">カテゴリー</a>
+          <a href="#">ギャラリー</a>
+          <a href="#">コメント</a>
+          <a href="#">コンテンツ</a>
+          <a href="#">ショートコード</a>
+          <a href="#">タイトル</a>
+          <a href="#">タグ</a>
+          <a href="#">チャット</a>
+          <a href="#">テンプレート</a>
+          <a href="#">トラックバック</a>
+          <a href="#">ピンバック</a>
+          <a href="#">ファン</a>
+          <a href="#">マークアップ</a>
+          <a href="#">リンク</a>
+          <a href="#">レイアウト</a>
+          <a href="#">一覧</a>
+          <a href="#">動画</a>
+          <a href="#">固定</a>
+          <a href="#">埋め込み</a>
+          <a href="#">失敗</a>
+          <a href="#">字幕</a>
+          <a href="#">引用</a>
+          <a href="#">必読</a>
+          <a href="#">愛</a>
+          <a href="#">成功</a>
+          <a href="#">投稿フォーマット</a>
+          <a href="#">抜粋</a>
+          <a href="#">改ページ</a>
+          <a href="#">極端な例</a>
+          <a href="#">標準</a>
+          <a href="#">注目の画像</a>
+          <a href="#">画像</a>
+        </div>
+      </div>
+      <div class="footer-top-center">
+        <div class="footer-top-category">
+          <h1>Category</h1>
+          <select>
+            <option>カテゴリーを選択</option>
+            <option>カテゴリー01 (6) </option>
+            <option>カテゴリー02 (3) </option>
+            <option>カテゴリー02-a (2) </option>
+            <option>カテゴリー02-b (2) </option>
+            <option>カテゴリー02-c (3) </option>
+            <option>ショートコード (4) </option>
+            <option>トピックス (6) </option>
+            <option>投稿サンプル (18) </option>
+          </select>
+        </div>
+        <div class="footer-top-Archives">
+          <h1>Archives</h1>
+          <select>
+            <option>月を選択</option>
+            <option>2019年11月 (1) </option>
+            <option>2019年1月 (1) </option>
+            <option>2017年9月 (1) </option>
+            <option>2016年4月 (1) </option>
+            <option>2015年11月 (3) </option>
+            <option>2015年6月 (2) </option>
+            <option>2015年5月 (2) </option>
+            <option>2014年5月 (1) </option>
+            <option>2013年1月 (3) </option>
+            <option>2012年3月 (4) </option>
+            <option>2012年1月 (5) </option>
+            <option>2010年10月 (1) </option>
+            <option>2010年8月 (1) </option>
+            <option>2009年10月 (1) </option>
+            <option>2009年7月 (1) </option>
+            <option>2009年6月 (1) </option>
+            <option>2009年5月 (1) </option>
+          </select>
+        </div>
+      </div>
+      <div class="footer-top-aboutUs">
+        <h1>About Us</h1>
+        <h2>STROK</h2>
+        <p>STORKはブログ専用のWordPressテーマです。AdSenseコードの挿入やCTA（コールトゥーアクション）などビジネスブログにおける必要不可欠な要素が最初から用意されているので、サイト構築に詳しくない方でも簡単に「誰が使っても美しいサイト」を構築できます。<br><br>またデザインもカスタマイザーから多種多様に変更できるので簡単に差別化が可能です。</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-left">
+        <a href="#"><span class="fas fa-caret-right res"></span>お問い合わせ（表示デモ）</a>
+        <span>|</span>
+        <a href="#"><span class="fas fa-caret-right res"></span>プライバシーポリシー</a>
+      </div>
+      <div class="footer-bottom-right">
+        <p>©Copyright2020 <a href="#">STROK</a>.All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <div class="scroll-btn">
+    <a href="#" class="fas fa-chevron-up"></a>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
